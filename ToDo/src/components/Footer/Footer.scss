@@ -1,0 +1,33 @@
+@import "../../scss/ui.scss";
+.footer {
+  background-color: #fff;
+  padding: 1.2rem;
+  .footer__btn-block {
+    display: flex;
+    justify-content: space-around;
+  }
+  .sort-button {
+    cursor: pointer;
+    transition: 0.4s;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  .sort__choose-all-button {
+  }
+  .sort-all {
+  }
+  .sort-all__image {
+  }
+  .sort-text {
+    color: $color-purple;
+  }
+  .sort__choose-completed-button {
+  }
+  .sort-completed {
+  }
+  .sort-completed__image {
+  }
+  .sort-completed__text {
+  }
+}
